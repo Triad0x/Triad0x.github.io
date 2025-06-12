@@ -11,7 +11,7 @@ export default {
             Outside of coding, I’m super into <span class="text-jet-200 font-semibold">motorsport</span> and <span class="text-jet-200 font-semibold">music</span>—they keep me inspired and balanced. Whether I’m working on a new feature or trying out the latest dev tools, I’m always looking for ways to <span class="text-jet-200 font-semibold">learn</span>, <span class="text-jet-200 font-semibold">improve</span>, and <span class="text-jet-200 font-semibold">build cool things</span>.
             `,
         ],
-        resume : "CV-Ardito-Hilman-V1.1.pdf"
+        resume : "/resume/CV Ardito Hilman V1-3.pdf"
     },
     experiences : [
         {

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-anti-flash_white-500;
+}
+.section-wrapper>section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  padding: 2rem;
+}
+
+.tech-stack-badge{
+  @apply inline-flex items-center gap-2 text-xs px-2 py-1 rounded-full bg-anti-flash_white-500 text-jet-500 border border-silver-300;
+}

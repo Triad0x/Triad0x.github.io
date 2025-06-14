@@ -11,7 +11,7 @@
       <section ref="general" class="min-h-screen snap-start bg-silver-900">
         <GeneralSection />
       </section>
-      <section ref="experiences" class="min-h-screen snap-start bg-silver-800">
+      <section ref="experiences" class="min-h-screen snap-start bg-silver-800 overflow-x-clip">
         <ExperiencesSection />
       </section>
       <section ref="projects" class="min-h-screen snap-start bg-silver-800">

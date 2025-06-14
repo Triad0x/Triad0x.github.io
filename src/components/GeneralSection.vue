@@ -14,8 +14,9 @@
           {{ general.name }}
         </span>, a <span class="text-jet-100">{{ general.title }}</span> building an impactfull web applications.
       </h1>
-      <p v-for="description in general.descriptions" class="text-silver-200 max-w-xl mx-auto md:mx-0">
-        <template v-html="description"></template>
+      <p v-for="description in general.descriptions"
+        v-html="description"
+        class="text-silver-200 max-w-xl mx-auto md:mx-0">
       </p>
       <a
         :href="general.resume"
